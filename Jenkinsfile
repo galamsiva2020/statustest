@@ -3,7 +3,8 @@ def applicationNameST = "${applicationName}-st";
 
 pipeline{
     agent {
-        label 'maven'
+        //label 'maven'
+        label 'master'
     }
 
     stages{
