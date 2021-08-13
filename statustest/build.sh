@@ -1,3 +1,3 @@
 #!/bin/sh
-mvn clean install
+maven clean install
 docker build -t airhacks/statustest .
